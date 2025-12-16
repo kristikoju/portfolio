@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Web Application Programming Lab</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Kristi Koju</h1>
+            <p>Computer Engineering Student | Web Developer | Programming Enthusiast</p>
+            <p>Welcome to my portfolio website </p>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+            <div class="logo">MyPortfolio</div>
+            <button class="menu-btn" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                 <!--<div class="profile-img">
+                    Placeholder for profile image 
+                    <div style="background-color: #3498db; width: 100%; height: 300px; display: flex; align-items: center; justify-content: center; color: white; font-size: 4rem;">
+                        <i class="fas fa-user"></i>
+                    </div> -->
+                <div class="profile-img" style="width: 100%; height: 300px; display: flex; align-items: center; justify-content: center;">
+                    <img src="photo for portfolio.2jpg.jpg" alt="Profile" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+
+
+                
+                <div class="about-text">
+                    <p>Hello! I'm Kristi Koju, a third-year Computer Science student at Khwopa College Of Engineering. I'm passionate about web development and programming.</p>
+                    <p>I'm currently learning Web Application Programming, which includes HTML5, CSS3, JavaScript, and backend technologies. </p>
+                    <p>My goal is to become a full-stack web developer and create applications that solve real-world problems. I enjoy learning new technologies and collaborating on projects.</p>
+                    <p>When I'm not coding, I enjoy reading tech blogs, playing chess, and hiking in nature.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <h3>HTML5 & CSS3</h3>
+                    <p>Semantic HTML, responsive design, CSS Grid, Flexbox, and modern CSS features.</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>JavaScript</h3>
+                    <p>ES6+, DOM manipulation, asynchronous programming, and basic React knowledge.</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>Python</h3>
+                    <p>Object-oriented programming, data structures, and basic Django framework knowledge.</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>Database Management</h3>
+                    <p>MySQL, MongoDB, and basic database design principles.</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>Git & Version Control</h3>
+                    <p>Git commands, GitHub, and collaborative development workflows.</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>UI/UX Design Principles</h3>
+                    <p>Basic knowledge of design principles, wireframing, and prototyping.</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 65%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Website</h3>
+                        <p>A responsive e-commerce website with product catalog, shopping cart, and checkout functionality. Built with HTML, CSS, and JavaScript.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>A web application for managing daily tasks with features like task categorization, due dates, and progress tracking.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-cloud-sun"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather Dashboard</h3>
+                        <p>A weather application that displays current weather and forecast using a third-party API. Built with JavaScript and Bootstrap.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Khwopa College Of Engineering, Libali-8, TC 10001</p>
+                    <p><i class="fas fa-envelope"></i> kristikoju@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> 9860856816</p>
+                    <p><i class="fas fa-clock"></i> Available for internships and project collaborations</p>
+                </div>
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>Kristi Koju</h3>
+                <p>Computer Engineer & Web Developer</p>
+                <ul class="social-links">
+                    <li><a href="https://www.instagram.com/kristi_koju?igsh=ajBja2F5MGNhZzRi"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/kristi-koju-831136343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.facebook.com/share/17tNusDUJd/"><i class="fab fa-facebook"></i></a></li>
+                    
+                </ul>
+                <p class="copyright">© Kristi Koju. </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('menuToggle').addEventListener('click', function() {
+            document.getElementById('navLinks').classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.getElementById('navLinks').classList.remove('active');
+            });
+        });
+        
+        // Simple form submission handler
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! This is a demo form for the lab assignment.');
+            this.reset();
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                 if(targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
